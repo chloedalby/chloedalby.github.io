@@ -6,20 +6,29 @@
 // Type
 //--------------------------------------------------------------------
 
-$serif: 'Vollkorn', serif;
-$sans: 'Chivo', sans-serif;
+$serif: 'Maitree', serif;
+$sans: 'Muli', sans-serif;
+
+.serif {
+	font-family: $serif;
+}
+
+.sans {
+	font-family: $sans;
+}
 
 //--------------------------------------------------------------------
 // Color
 //--------------------------------------------------------------------
 
-$coal: #444;
+$dark-gray: #444;
 $white: #fff;
-$deep-sea-blue: #2c3e50;
-$blue:	#0074D9;
 $link-blue: #268bd2;
-$clouds: #f8f8f8;
-$silver: #e1e1e1;
+$link-blue-light: #73c5ff;
+$light-gray: #f8f8f8;
+$deep-purp: #2c223a;
+$blue:	#0074D9;
+
 
 //--------------------------------------------------------------------
 // Spacing
@@ -28,6 +37,7 @@ $silver: #e1e1e1;
 $unit-small:	25px;
 $unit-medium:	50px;
 $unit-large:	100px;
+$unit-xlarge:	200px;
 
 
 //--------------------------------------------------------------------
@@ -37,7 +47,7 @@ $unit-large:	100px;
 $bp-small:		26em;
 $bp-medium:		35em;
 $bp-large:		48em;
-$bp-xlarge:		60em;
+$bp-xlarge:		68em;
 
 //--------------------------------------------------------------------
 // Z Index
@@ -47,30 +57,3 @@ $z-100:			100;
 $z-200:			200;
 $z-300:			300;	
 
-//--------------------------------------------------------------------
-// Widths
-//--------------------------------------------------------------------
-
-.one-whole {
-	width: 100%;
-}
-
-.one-half {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 50%;	
-	}
-}
-
-.one-third {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 33%;	
-	}
-}
-.two-thirds {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 75%;	
-	}
-}
