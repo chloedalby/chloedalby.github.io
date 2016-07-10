@@ -23,10 +23,10 @@
 }
 
 .two-up-vid {
-    padding-bottom: 51%;
+    padding-bottom: 50%;
 
     @media (min-width: $bp-medium) {
-        padding-bottom: 50%;
+        padding-bottom: 51%;
     }
 
     @media (min-width: $bp-xlarge) {
