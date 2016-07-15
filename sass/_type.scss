@@ -229,7 +229,7 @@ blockquote {
 }
 
 .button {
-    padding: ($unit-small / 2) $unit-small;
+    padding: ($unit-small / 2) $unit-small ($unit-small/1.5) ;
     border-radius: 4px;
     text-decoration: none;
     font-family: $sans;
